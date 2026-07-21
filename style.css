@@ -9,13 +9,28 @@ h1{
 h3{
     color:rgb(0, 0, 0);
 }
-h4{
-    color:rgb(0, 0, 0);
-    line-height: 50px;
-    border: 5px solid rgb(0, 0, 78);
-    background-color: rgb(141, 214, 240);
+.fin_prj{
+    background-color: rgb(141, 240, 156);
+    border: 5px solid rgb(0, 78, 38);
+    z-index:1;
+    margin:10px;
 }
-
+.ing_prj{
+    background-color: rgb(235, 240, 141);
+    border: 5px solid rgb(78, 56, 0);
+    z-index:1;
+    margin:10px;
+}
+.not_prj{
+    background-color: rgb(240, 167, 141);
+    border: 5px solid rgb(78, 17, 0);
+    z-index:1;
+    margin:10px;
+}
+.fin_prj.h4,.fin_prj.h5{
+    padding:0px;
+    margin:0px;
+}
 /* basic-typesettings */
 .intro,.project,.contact{
     display:flex;
@@ -89,8 +104,27 @@ h1.front_pg{
 .other h4{
     box-sizing: border-box;
     width:30%;
+    color:rgb(0, 0, 0);
+    line-height: 50px;
+    border: 5px solid rgb(0, 0, 78);
+    background-color: rgb(141, 214, 240);
 }
-
+.intro h4{
+    color:rgb(0, 0, 0);
+    line-height: 50px;
+    border: 5px solid rgb(0, 0, 78);
+    background-color: rgb(141, 214, 240);
+}
+a{  
+    position:relative;
+}
+button{
+    border:none;
+    border-radius:10px;
+}
+.url{
+    background-color: rgb(165, 172, 182);
+}
 
 
 
@@ -119,8 +153,7 @@ h1.front_pg{
 #scroll_up,#scroll_down{
     position:fixed;
     right:5%;
-    z-index:1;
-    opacity: 80%;
+    z-index:2;
 }
 .front_pg_container{
     z-index: 1;
@@ -162,10 +195,8 @@ body{
     position:relative;
 }
 .pg_btn button{
-    border:none;
     background-color: rgb(138, 215, 241);
-    border-radius:10px;
 }
-.pg_btn button:hover{
+button:hover{
     opacity:80%;
 }
