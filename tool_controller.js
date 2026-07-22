@@ -56,11 +56,13 @@ btns.forEach(btn=>{
                     document.body.style.backgroundColor='rgb(183, 235, 196)';
                     wave.style.top="0px";
                     otherwave.style.top="70px";
+                    otherwave.style.height=document.documentElement.scrollHeight+"px";
                 }
                 else if(targetid=="pg4_text"){
                     document.body.style.backgroundColor='rgb(183, 203, 235)';
                     wave.style.top="0px";
                     otherwave.style.top="70px";
+                    otherwave.style.height=document.documentElement.scrollHeight+"px";
                 }
             }
         });
