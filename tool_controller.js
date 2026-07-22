@@ -44,32 +44,23 @@ btns.forEach(btn=>{
                 text.classList.remove("hid");
                 if(targetid=="pg1_text"){
                     document.body.style.backgroundColor='rgb(239, 203, 203)';
-                    wave.style.backgroundPosition="0px 0px";
                     wave.style.top="0px";
-                    otherwave.style.backgroundPosition="0px 0px";
                     otherwave.style.top="70px";
                 }
                 else if(targetid=="pg2_text"){
                     document.body.style.backgroundColor='rgb(235, 234, 183)';
-                    wave.style.backgroundPosition="0px 0px";
                     wave.style.top="0px";
-                    otherwave.style.backgroundPosition="0px 0px";
                     otherwave.style.top="70px";
                 }
                 else if(targetid=="pg3_text"){
                     document.body.style.backgroundColor='rgb(183, 235, 196)';
-                    wave.style.backgroundPosition="0px 0px";
                     wave.style.top="0px";
-                    otherwave.style.backgroundPosition="0px 0px";
                     otherwave.style.top="70px";
                 }
                 else if(targetid=="pg4_text"){
                     document.body.style.backgroundColor='rgb(183, 203, 235)';
-                    wave.style.backgroundPosition="0px 0px";
                     wave.style.top="0px";
-                    otherwave.style.backgroundPosition="0px 0px";
                     otherwave.style.top="70px";
-                    otherwave.style.backgroundRepeat="repeat";
                 }
             }
         });
