@@ -46,11 +46,13 @@ btns.forEach(btn=>{
                     document.body.style.backgroundColor='rgb(239, 203, 203)';
                     wave.style.top="0px";
                     otherwave.style.top="70px";
+                    otherwave.style.height=document.documentElement.scrollHeight+"px";
                 }
                 else if(targetid=="pg2_text"){
                     document.body.style.backgroundColor='rgb(235, 234, 183)';
                     wave.style.top="0px";
                     otherwave.style.top="70px";
+                    otherwave.style.height=document.documentElement.scrollHeight+"px";
                 }
                 else if(targetid=="pg3_text"){
                     document.body.style.backgroundColor='rgb(183, 235, 196)';
